@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="shortcut icon" href="img/logo.ico" 
+	type="image/ico">
+
+	<title>Arts Gallery</title>
+	<style type="text/css">
+			@media only screen and (max-width: 875px) {
+#right-aside {
+ display: block; 
+ }
+}
+@media only screen and (max-width: 648px) {
+#right-aside {
+ display: none; 
+ }
+}
+	</style>
+</head>
+<body>
+	<header>
+	<p class="title"><strong>Gallery</strong></p>
+		<pre class="title2">Online catalog of arts</pre>
+		<div class="menu">
+			<a href="index.html"><pre>Home</pre></a>						
+			<a href="arts.html"><pre>Arts</pre></a>					
+			<a href="contacts.html"><pre>Contacts</pre></a>
+			<a href="registr.html"><pre>Registration</pre></a>
+		</div>
+</header>
+<div class="container">
+<div class="header">
+	<p class="title3"><strong>Gallery</strong></p>
+		<pre class="title4">Online catalog of arts</pre>
+        <input class="nav-burger__checkbox" type="checkbox" id="burger">
+        <label class="button_mnu" for="burger">Меню</label>
+        <nav class="nav">
+            <a class="nav__item" href="index.html"><pre>Home</pre></a>
+            <a class="nav__item" href="arts.html"><pre>Arts</pre></a>
+            <a class="nav__item" href="contacts.html"><pre>Contacts</pre></a>
+            <a class="nav__item" href="registr.html"><pre>Registration</pre></a>
+        </nav>
+    </div>
+    </div>
+ 
+	<div class="body"> 
+		<aside id="right-aside">
+		<form id="enter">
+			<p>Enter your name:</p>	
+			<input type="text" name="userName">
+			<p>Enter your password</p>
+			<input type="password" name="userPasswrord"><br>
+			<input id="sub_but" type="submit" name="Enter">
+		</form>
+		
+		<center><h1>Best works</h1></center>
+		<img class="best_works" src="img/AR3.jpg" width="95%" align="right"> 
+		<img class="best_works" src="img/AR4.jpg" width="95%" align="right"> 
+		<img class="best_works" src="img/IM4.jpg" width="95%" align="right"> 
+		 
+		
+	</aside>
+
+<div id="contacts">
+	<p id="txt3">Nikolaev Aleksey</p>
+	<p id="txt"><b class="txt">e-mail:</b> nikolaev.profent@gmail.com</p>
+	<p id="txt"><b class="txt">viber:</b> +380958457692</p>
+	<p id="txt"><b class="txt">telegram:</b> @nikolaev_prog</p>
+
+	<a id="but" href="https://www.facebook.com/nikolaev.tech?ref=bookmarks" title="facebook"><img src="img/facebook.png" width="50" alt="facebook"></a>
+	<a id="but" href="https://vk.com/l.nikolaev13" title="vk"><img src="img/vk.png" width="50" alt="vk"></a>
+	<a id="but" href="https://www.instagram.com/lesha_nikol/?hl=ru" title="instagram"><img src="img/inst.png" width="50" alt="instagram"></a>
+</div>
+</div>
+ 	<footer align="center"> 
+
+	<p class="html-validator">
+    <a href="img/html-validator.jpg">
+        <img class="baners" 
+            src="img/html-baner.png"
+            alt="Правильный CSS!"/>
+    </a>
+	</p>
+
+	<p class="css-validator">
+    <a href="img/css-validator.jpg">
+        <img class="baners" 
+            src="img/css-baner.png"
+            alt="Правильный CSS!"/>
+    </a>
+	</p>
+	
+
+<a id="gotop" href="#" title="Go to top"><img src="img/top.png" width="60px" alt="Up"></a>
+
+<p class="cop" align="right"> 
+Gallery of Art | Copyright 2017 
+</p> 
+
+<script type="text/javascript">
+jQuery(function(f){
+    var element = f('#gotop');
+    f(window).scroll(function(){
+        element['fade'+ (f(this).scrollTop() > 150 ? 'In': 'Out')](500);           
+    });
+});
+</script>
+</footer> 
+</body>
+</html>

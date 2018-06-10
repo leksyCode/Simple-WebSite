@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="shortcut icon" href="img/logo.ico" 
+	type="image/ico">
+
+	<title>Arts Gallery</title>
+</head>
+<body>
+
+
+	<header>
+	<p class="title"><strong>Gallery</strong></p>
+		<pre><p class="title2">Online catalog of arts</p></pre>
+
+		<div class="menu">
+			<a href="index.html"><pre>Home</pre></a>			
+			<a href="arts.html"><pre>Arts</pre></a>			
+			<a href="contacts.html"><pre>Contacts</pre></a>
+			<a href="registr.html"><pre>Registration</pre></a>
+		</div>
+	
+
+</header>
+<div class="container">
+<div class="header">
+	<p class="title3"><strong>Gallery</strong></p>
+		<pre class="title4">Online catalog of arts</pre>
+        <input class="nav-burger__checkbox" type="checkbox" id="burger">
+        <label class="button_mnu" for="burger">Меню</label>
+        <nav class="nav">
+            <a class="nav__item" href="index.html"><pre>Home</pre></a>
+            <a class="nav__item" href="arts.html"><pre>Arts</pre></a>
+            <a class="nav__item" href="contacts.html"><pre>Contacts</pre></a>
+            <a class="nav__item" href="registr.html"><pre>Registration</pre></a>
+        </nav>
+    </div>
+    </div>
+
+
+	<div class="body">
+
+	 <aside id="right-aside">
+		<form id="enter">
+			<p>Enter your name:</p>	
+			<input type="text" name="userName">
+			<p>Enter your password</p>
+			<input type="password" name="userPasswrord"><br>
+			<input id="sub_but" type="submit" name="Enter">
+		</form>
+		
+		<center><h1>Best works</h1></center>
+		<img class="best_works" src="img/AR2.jpg" width="95%" align="right"> 
+		<img class="best_works" src="img/AR1.jpg" width="95%" align="right">
+		<img class="best_works" src="img/AR5.jpg" width="95%" align="right"> 
+		
+	</aside>
+<p id="txt5">Registration</p>
+
+<form  class='reg-form'>
+
+		<div class='form-row'>
+			<label for='form_fname'><b>First Name: </b> </label>
+    		<input type='text' id='form_fname' name='first_name'>
+  		</div>
+
+  		<div class='form-row'>
+    		<label for='form_sname'><b>Second Name: </b></label>
+    		<input type='text' id='form_sname' name='second_name'>
+		</div>
+
+		<div class='form-row'>
+			<label><b>Enter your password: </b></label>
+			<input type="password" name="userPasswrord"><br>
+		</div>
+		<div class='form-row'>
+			<label><b>Сheck your password: </b></label>
+			<input type="password" name="userPasswrord"><br>
+		</div>
+
+
+
+
+
+
+
+		<div class='form-row'>
+			<label for='form_email'><b>Email: </b></label>
+			<input type='email' id='form_email' name='email'>
+		</div>
+
+		<div class='form-row'>
+			<label for='form_phone'><b>Phone: </b></label>
+			<input type='text' id='form_phone' name='phone'>
+		</div>
+
+	
+
+		<div class="form-row">
+			<input type="submit" value='Go'>
+		</div>
+
+	</form>
+<footer align="center" style="width: 100%;"> 
+
+	<p class="html-validator">
+    <a href="img/html-validator.jpg">
+        <img class="baners" 
+            src="img/html-baner.png"
+            alt="Правильный CSS!"/>
+    </a>
+	</p>
+
+	<p class="css-validator">
+    <a href="img/css-validator.jpg">
+        <img class="baners" 
+            src="img/css-baner.png"
+            alt="Правильный CSS!"/>
+    </a>
+	</p>
+	
+
+<a id="gotop" href="#" title="Go to top"><img src="img/top.png" width="60px" alt="Up"></a>
+
+<p class="cop" align="right"> 
+Gallery of Art | Copyright 2017 
+</p> 
+
+<script type="text/javascript">
+jQuery(function(f){
+    var element = f('#gotop');
+    f(window).scroll(function(){
+        element['fade'+ (f(this).scrollTop() > 150 ? 'In': 'Out')](500);           
+    });
+});
+</script>
+</footer> 
+</body>
+</html>
+
+

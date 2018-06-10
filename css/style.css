@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+* {
+margin:0 auto; 
+color: white;
+}
+ 
+body {
+	background-color: #f0e6df;
+}
+a {
+	text-decoration: none;
+}
+
+div.body {
+	width: 80%;
+			background-image: url(../img/bg.png);
+			background-repeat: no-repeat;
+			font-family: 'Roboto', sans-serif;
+			min-height: 80vh; /*viewport height*/
+		}
+header {
+	width: 80%;
+			background-image: url("../img/header.png");
+			background-repeat: repeat-x;
+			border-bottom: solid 2px #f0e6df;
+		}
+.header {
+  height:100px;
+  position: relative;
+  top: 0px;
+  background-image: url("../img/header.png");
+			background-repeat: repeat-x;
+			border-bottom: solid 2px #f0e6df;
+}
+
+footer {
+	width: 80%;
+	height: 50px;
+		background-color: #5F4952;
+		border-top: solid 2px white;
+		position: relative;
+		bottom: 0px;
+		font-family: 'Roboto', sans-serif;
+}
+input {
+	color: black;
+}
+b,li {
+	color: #544051;
+}
+.title {
+	font-size: 60px;
+	margin-top: 5px;
+	text-align: center;
+}
+.title2 {
+	width: 100%;
+	letter-spacing: 5px;
+	padding-bottom: 10px;
+	padding-top: 5px;
+	text-align: center;
+}
+
+
+#enter {
+	float: right;
+padding: 6px;
+padding-right: 20px;
+}
+#right-aside {
+ float: right;
+ width: 15%;
+ min-width: 212px; 
+ height: auto;
+	margin-left: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	background-color: #b37979;
+	border-bottom: solid 2px #f0e6df;
+	border-left: solid 2px #f0e6df;
+ }
+.best_works {
+padding-top: 17px;	
+}
+
+.menu {
+	color: #8f717d;
+	 font-size: 20px;
+	width: 100%;
+	 background-color: #8f717d;
+	 display: flex;
+	 height: 25px;
+	}
+#but_txt {
+	color: black;
+}
+
+
+
+.cop {
+text-align: right;
+padding-top: 15px;
+padding-right: 15px;
+font-size: 15px;
+}
+#gotop {
+display: block;
+bottom: 2%;
+right: 4%;
+position: fixed;
+opacity: 0.6;
+display:none;
+}
+
+.left , .right {
+padding: 10px;
+width: 40%;
+min-width: 412px;
+height: auto;
+}
+
+#txt{
+color: #544051;
+	font-size: 20px;
+	padding: 10px;
+}
+#txt2{
+color: #544051;
+	font-size: 20px;
+	padding: 10px;
+}
+#txt2 {
+	padding-left: 10px;
+}
+#txt3 {
+	font-size: 40px;
+	color: #544051;
+	padding-left: 10px;
+}
+#txt_list {
+	margin: 10px;
+}
+#contacts {
+	padding: 20px;
+}
+
+#artist1{
+	color: #544051;
+	margin-left: 10px;
+}
+.arts {
+	padding-left: 10px;
+}
+.list_artist {
+	font-size: 60px;
+	padding-top: 15px;
+	padding-left: 20px;
+	text-align: left;
+	color: #544051;
+}
+
+
+.css-validator, .html-validator {
+	float: left;
+}
+.baners {
+	height:37px;
+	padding-top: 8px;
+	padding-left: 10px;
+}
+#reg_but {
+color: #5F4952;
+}
+
+.nav {
+  width: 100%;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 100;
+  display: none;
+
+}
+.nav__item {
+  display: block;
+  height: 56px;
+  font-weight: bold;
+  color: #fff;
+  font-size: 20px;
+  line-height: 56px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #8f7ea6;
+  border: 3px double orange;
+}
+.button_mnu {
+  display: block;
+  width: 25px;
+  height: 23px;
+  cursor: pointer;
+  font-size: 0;
+  background: url("../img/icon-menu.svg") no-repeat;
+  position: absolute;
+  top: 55px;
+  right: 20px;
+  z-index: 1;
+}
+/*pseudo-classes*/ 
+.nav__item:hover {
+  background-color: #eb9659;
+}
+.nav-burger__checkbox {
+  display: none;
+}
+
+.nav-burger__checkbox:checked + .button_mnu {
+  background-image: url("../img/icon-cross.svg");
+}
+/*for all .nav  after  .nav-burger__checkbox
+displayed nav */
+.nav-burger__checkbox:checked ~ .nav {
+  display: block;
+}
+
+.header {
+	display: none;
+}
+.title3 {
+font-size: 60px;
+	margin-top: 5px;
+	text-align: center;
+}
+
+.title4 {
+
+	width: 100%;
+	letter-spacing: 5px;
+	padding-bottom: 10px;
+	padding-top: 5px;
+	text-align: center;
+}
+#txt5 {
+	font-size: 40px;
+	color: #544051;
+	text-align: center;
+	padding-top: 20px;
+
+}
+
+
+.form-row {
+	margin-bottom: 8px;
+	overflow: hidden;
+}
+.form-row input {
+	float: right;
+	height: 28px;
+	line-height: 19px;
+	margin: 0px;
+	padding: 3px 3px;
+	width: 287px;
+	border: 1px solid #ABADB3;
+
+}
+
+.reg-form {
+	width: 480px;
+	margin: 0 auto;
+	padding-top: 30px;
+	padding-bottom: 550px;
+	align-content: center;
+	
+}
+
+.form-row input[type=submit] {
+	padding:5px;
+	height:40px;
+	width:100%;
+	line-height: 10px;
+	background: #94727f;
+	color:white;
+}
+label {
+	color: #544051;
+	font-size: 18px;
+}
+
+.form-row input[type=submit]:hover {
+	background: #57444c;
+}
+
+@media only screen and (max-width: 1111px) {
+	div.body {
+	width: 100%;
+	}
+	header {
+	width: 100%;
+	}
+	footer {
+	width: 100%;
+	}
+}
+
+@media only screen and (max-width: 875px) {
+	.left , .right {
+width: 55%;
+min-width: 400px;
+}
+#right-aside {
+ display: none; 
+ }
+ .arts {
+ 	width: 90%;
+ 	padding-bottom: 5px;
+ 	padding-left: 5%;
+ }
+}
+
+@media only screen and (max-width: 648px) {
+	.left , .right {
+width: 96%;
+min-width: 100px;
+padding: 5px;
+padding-top: 0px;
+}
+#right-aside {
+ display: none;
+ }
+.menu {
+	display: none;
+}
+.header {
+	display: block;
+}
+.body {
+	position: relative;
+	top: 0px;
+}
+.list_artist {
+font-size: 8vw;
+}
+header {
+	display: none;
+}
+@media only screen and (max-width: 520px){
+.reg-form {
+	width: 90%;
+}
+}}}
+
+
+
