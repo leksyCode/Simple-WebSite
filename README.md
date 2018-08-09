@@ -1,2 +1,2 @@
 # Simple-WebSite
-Simple site on html+css
+Simple adaptive site on html+css
